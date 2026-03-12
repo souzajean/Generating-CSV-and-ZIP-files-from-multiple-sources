@@ -580,19 +580,10 @@ Credential Name: FTP_USER
 ![Fluxo](imagens/Screenshot_51.png)
 <br><br><br>
 
+## 📦 📂 Código e documentação – iFlow para baixar
 
-📂 Código e documentação
-
-O projeto completo está disponível no GitHub:
-
-(GitHub link aqui)
-🔗 Conecte-se comigo
+📦 [Download do iFlow – PollEnrich_FTP_](https://github.com/souzajean/Poll_Enrich_com_FTP/raw/main/Package/PollEnrich_FTP_SupplierData_Integration.zip)
 
 
-SAP BTP
-
-SAP Integration Suite
-
-APIs e integrações
-
-Sempre aberto para trocar conhecimento com a comunidade SAP.
+<br>
+> O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
