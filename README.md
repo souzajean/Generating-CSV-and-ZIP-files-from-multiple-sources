@@ -567,17 +567,19 @@ Credential Name: FTP_USER
 ### Atualizando o FTP no WINCSP
 ![Fluxo](imagens/Screenshot_48.png)
 
-
-
-
-
-
-
-
-
-
+<br><br><br>
+### Extraindo o Arquivo Airports.zip o FTP
+![Fluxo](imagens/Screenshot_49.png)
 
 <br><br><br>
+### Arquivos extraidos na pasta local
+![Fluxo](imagens/Screenshot_50.png)
+
+<br><br><br>
+### Resultado do CSV
+![Fluxo](imagens/Screenshot_51.png)
+<br><br><br>
+
 
 📂 Código e documentação
 
