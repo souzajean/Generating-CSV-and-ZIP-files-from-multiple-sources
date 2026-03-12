@@ -156,16 +156,33 @@ Data Type: java.lang.String
 
 <br><br><br>
 ### Adicionando um novo Receiver
-![Fluxo](imagens/Screenshot_7.png)
+![Fluxo](imagens/Screenshot_8.png)
 
+<br><br><br>
+### Renomeando o Receiver
+![Fluxo](imagens/Screenshot_9.png)
+```
+ODATAv4
+```
 
+<br><br><br>
+### Adicionando o Request Replay
+![Fluxo](imagens/Screenshot_10.png)
 
+<br><br><br>
+### Selecionando o oData
+![Fluxo](imagens/Screenshot_11.png)
 
+<br><br><br>
+### Selecionando o oData V4
+![Fluxo](imagens/Screenshot_12.png)
 
-
-
-
-
+<br><br><br>
+### Renomeando o Receiver
+![Fluxo](imagens/Screenshot_13.png)
+```
+Address: https://services.odata.org/V4/(S(okozo2a42m22jenurt2qhucs))/TripPinServiceRW
+```
 
 
 
