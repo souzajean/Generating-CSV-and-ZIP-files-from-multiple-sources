@@ -91,12 +91,20 @@ Esses arquivos são enviados automaticamente para um servidor SFTP.
 Durante esse laboratório foi possível praticar conceitos importantes de integração:
 
 ✔ Consumo de API OData
+
 ✔ Manipulação de payloads
+
 ✔ Uso de Exchange Properties
+
 ✔ Processamento paralelo com Multicast
+
 ✔ Conversão XML → CSV
+
 ✔ Geração de arquivos ZIP
+
 ✔ Integração com SFTP
+
+
 
 
 
