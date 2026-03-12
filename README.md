@@ -113,7 +113,7 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
 
-** (\**)
+<br>
 
 
 ### Criando nosso Artifacts
