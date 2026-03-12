@@ -236,9 +236,32 @@ XML To CSV Converter
 ```
 Parallel Multicast  
 ```
+<br><br><br>
+### Adicionando o Content Modifier
+![Fluxo](imagens/Screenshot_24.png)
 
-
-
+<br><br><br>
+### Renomeando Content Modifier
+![Fluxo](imagens/Screenshot_25.png)
+```
+Airports CSV 1 
+```
+<br><br><br>
+### Configurando Property no Content Modifier
+![Fluxo](imagens/Screenshot_26.png)
+```
+Content Modifier -  Airports CSV 1 
+Exchange Property
+Create - __filename - Contant - AirportsCSV1.csv
+```
+### onfigurando Body no Content Modifier
+![Fluxo](imagens/Screenshot_27.png)
+```
+Content Modifier -  Airports CSV 1 
+Message Body
+Type: Expression
+Body: ${property._originalPayload}
+```
 
 
 
