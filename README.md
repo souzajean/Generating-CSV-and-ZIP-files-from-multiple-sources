@@ -1,24 +1,23 @@
-# Generating-CSV-and-ZIP-files-from-multiple-sources
-SAP BTP CPI - Zipping Multiple Files
+# 🚀 Generating CSV and ZIP Files from Multiple Sources
+### SAP BTP Integration Suite (CPI)
 
+Projeto de laboratório desenvolvido durante meus estudos em **SAP BTP – Integration Suite (Cloud Integration)**.
 
+O objetivo deste projeto é demonstrar como construir um **iFlow capaz de consumir dados de múltiplas fontes, converter os dados em CSV e gerar um arquivo ZIP contendo múltiplos arquivos**.
 
-🚀 SAP Integration Suite (CPI) – Gerando arquivos CSV e ZIP a partir de múltiplas fontes
+Esse tipo de cenário é comum em **integrações empresariais**, quando precisamos consolidar dados provenientes de diferentes sistemas e gerar arquivos para parceiros externos ou sistemas legados.
 
-Durante meus estudos em SAP BTP – Integration Suite (Cloud Integration), desenvolvi um pequeno laboratório para praticar alguns conceitos importantes de integração.
+---
 
-O objetivo deste exercício foi construir um iFlow capaz de consumir dados de duas fontes diferentes, converter os dados em CSV e gerar um arquivo ZIP com múltiplos arquivos.
+# 🧩 Integration Scenario
 
-Esse tipo de cenário é comum em projetos reais quando precisamos consolidar dados de diferentes sistemas e gerar arquivos para integração com parceiros ou sistemas legados.
+A integração utiliza **duas fontes de dados diferentes**:
 
-🧩 Cenário da Integração
-
-A integração possui duas fontes de dados:
-
-1️⃣ Payload enviado via Postman (XML)
-2️⃣ Dados consumidos de uma API OData pública
+1️⃣ Payload enviado via **Postman (XML)**  
+2️⃣ Dados consumidos de uma **API OData pública**
 
 API utilizada:
+
 
 https://services.odata.org/V4/TripPinServiceRW/Airports
 
@@ -54,39 +53,11 @@ Parallel Multicast
       └── Branch 2
              Convert API Response → CSV
              File: doc2.csv
-
       ▼
 Join
       ▼
 Gather (Zip Aggregation)
       ▼
-SFTP Receiver
-
-Resultado final:
-
-doc.zip
- ├── doc1.csv
- └── doc2.csv
-🔧 Tecnologias Utilizadas
-
-Nesse laboratório utilizei alguns componentes importantes do SAP CPI:
-
-HTTPS Sender Adapter
-
-Content Modifier
-
-Request Reply
-
-OData API
-
-Parallel Multicast
-
-XML to CSV Converter
-
-Join
-
-Gather (ZIP Aggregation)
-
 SFTP Receiver
 
 Esses componentes são muito utilizados em projetos reais de integração.
