@@ -204,6 +204,48 @@ Address: https://services.odata.org/V4/(S(okozo2a42m22jenurt2qhucs))/TripPinServ
 ### Selecionando todos os campos e definindo nossa operação
 ![Fluxo](imagens/Screenshot_17.png)
 
+<br><br><br>
+### Resultado das configurações do oData em Processing
+![Fluxo](imagens/Screenshot_18.png)
+
+<br><br><br>
+### Convertendo de XML para CSV
+![Fluxo](imagens/Screenshot_19.png)
+
+<br><br><br>
+### Renomenado o XML para CSV
+![Fluxo](imagens/Screenshot_20.png)
+```
+XML To CSV Converter
+```
+
+<br><br><br>
+### Configurando o XML para CSV
+![Fluxo](imagens/Screenshot_21.png)
+```
+/Airports/Airport
+```
+
+<br><br><br>
+### Adicionando o Multicast Parallel
+![Fluxo](imagens/Screenshot_22.png)
+
+<br><br><br>
+### Renomeando Parallel Multicast
+![Fluxo](imagens/Screenshot_23.png)
+```
+Parallel Multicast  
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
