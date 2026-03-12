@@ -7,6 +7,8 @@ O objetivo deste projeto é demonstrar como construir um **iFlow capaz de consum
 
 Esse tipo de cenário é comum em **integrações empresariais**, quando precisamos consolidar dados provenientes de diferentes sistemas e gerar arquivos para parceiros externos ou sistemas legados.
 
+![Capa](imagens/capa-linkedin.png)
+
 ---
 
 # 🧩 Integration Scenario
@@ -106,6 +108,13 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 
 
 
+📊 Exemplo Prático do Fluxo
+
+### Criando nosso Iflow
+![Fluxo](imagens/Screenshot_1.png)
+```
+PollEnrichwithFTP
+```
 
 
 
