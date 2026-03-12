@@ -122,23 +122,54 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 Generating CSV and ZIP Files from Multiple Sources
 ```
 <br><br><br>
-### Iflow
+### Adicionando o HTTPS
 ![Fluxo](imagens/Screenshot_3.png)
-```
-Generating CSV and ZIP Files from Multiple Sources
-```
+
 <br><br><br>
-### Iflow
+### Criando nosso Endpoint
 ![Fluxo](imagens/Screenshot_4.png)
 ```
-Generating CSV and ZIP Files from Multiple Sources
+/generating/csv
 ```
 <br><br><br>
-### Iflow
+### Adicionar o Content Modifier
 ![Fluxo](imagens/Screenshot_5.png)
+
+<br><br><br>
+### Renomeando o Content Modifier
+![Fluxo](imagens/Screenshot_6.png)
 ```
-Generating CSV and ZIP Files from Multiple Sources
+originalPayload
 ```
+
+<br><br><br>
+### Capturando a mensagem no Property no Content Modifier
+![Fluxo](imagens/Screenshot_7.png)
+```
+Content Modifier originalPayload
+Exchange Property
+Name: _originalPayload
+Type: Expression
+Value: ${body}
+Data Type: java.lang.String
+```
+
+<br><br><br>
+### Adicionando um novo Receiver
+![Fluxo](imagens/Screenshot_7.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
