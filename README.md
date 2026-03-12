@@ -107,13 +107,13 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 ✔ Integração com SFTP
 
 
-
+<br><br><br>
 📊 Exemplo Prático do Fluxo
 
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
 
-<br>
+<br><br><br>
 
 
 ### Criando nosso Artifacts
@@ -121,25 +121,28 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 ```
 Generating CSV and ZIP Files from Multiple Sources
 ```
-
+<br><br><br>
 ### Iflow
 ![Fluxo](imagens/Screenshot_3.png)
 ```
 Generating CSV and ZIP Files from Multiple Sources
 ```
-
+<br><br><br>
 ### Iflow
 ![Fluxo](imagens/Screenshot_4.png)
 ```
 Generating CSV and ZIP Files from Multiple Sources
 ```
-
+<br><br><br>
 ### Iflow
 ![Fluxo](imagens/Screenshot_5.png)
 ```
 Generating CSV and ZIP Files from Multiple Sources
 ```
 
+
+
+<br><br><br>
 
 📂 Código e documentação
 
