@@ -184,6 +184,36 @@ ODATAv4
 Address: https://services.odata.org/V4/(S(okozo2a42m22jenurt2qhucs))/TripPinServiceRW
 ```
 
+<br><br><br>
+### Configurando o oDATA
+![Fluxo](imagens/Screenshot_14.png)
+
+<br><br><br>
+### Configurando o System e Endereço
+![Fluxo](imagens/Screenshot_15.png)
+```
+Address: https://services.odata.org/V4/(S(okozo2a42m22jenurt2qhucs))/TripPinServiceRW
+```
+
+<br><br><br>
+### Selecionando a Entidade do Airports
+![Fluxo](imagens/Screenshot_16.png)
+
+
+<br><br><br>
+### Selecionando todos os campos e definindo nossa operação
+![Fluxo](imagens/Screenshot_17.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
