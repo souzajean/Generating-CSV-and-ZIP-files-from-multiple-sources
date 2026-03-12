@@ -244,27 +244,46 @@ Parallel Multicast
 ### Renomeando Content Modifier
 ![Fluxo](imagens/Screenshot_25.png)
 ```
-Airports CSV 1 
+Airports CSV1 
 ```
 <br><br><br>
 ### Configurando Property no Content Modifier
 ![Fluxo](imagens/Screenshot_26.png)
 ```
-Content Modifier -  Airports CSV 1 
+Content Modifier -  Airports CSV1 
 Exchange Property
 Create - __filename - Contant - AirportsCSV1.csv
 ```
+
+<br><br><br>
 ### onfigurando Body no Content Modifier
 ![Fluxo](imagens/Screenshot_27.png)
 ```
-Content Modifier -  Airports CSV 1 
+Content Modifier -  Airports CSV1 
 Message Body
 Type: Expression
 Body: ${property._originalPayload}
 ```
 
+<br><br><br>
+### Adicionando o Content Modifier
+![Fluxo](imagens/Screenshot_28.png)
 
-
+<br><br><br>
+### Renomeando Content Modifier
+![Fluxo](imagens/Screenshot_29.png)
+```
+Airports CSV2 
+```
+<br><br><br>
+### Configurando Property no Content Modifier
+![Fluxo](imagens/Screenshot_30.png)
+```
+Content Modifier -  Airports CSV2
+Exchange Property
+Create - __filename - Contant - AirportsCSV2.csv
+```
+<br><br><br>
 
 
 
