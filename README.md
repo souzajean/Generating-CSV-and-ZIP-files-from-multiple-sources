@@ -250,13 +250,13 @@ Airports CSV1
 ### Configurando Property no Content Modifier
 ![Fluxo](imagens/Screenshot_26.png)
 ```
-Content Modifier -  Airports CSV1 
+Content Modifier -  Airports CSV 1 
 Exchange Property
 Create - __filename - Contant - AirportsCSV1.csv
 ```
 
 <br><br><br>
-### onfigurando Body no Content Modifier
+### Configurando Body no Content Modifier
 ![Fluxo](imagens/Screenshot_27.png)
 ```
 Content Modifier -  Airports CSV1 
@@ -279,17 +279,67 @@ Airports CSV2
 ### Configurando Property no Content Modifier
 ![Fluxo](imagens/Screenshot_30.png)
 ```
-Content Modifier -  Airports CSV2
+Content Modifier -  Airports CSV 2
 Exchange Property
 Create - __filename - Contant - AirportsCSV2.csv
 ```
 <br><br><br>
+### Conectando o Parallel no Content Modifier  na Branch2
+![Fluxo](imagens/Screenshot_31.png)
+```
+Airports CSV2 
+```
+<br><br><br>
+### Copia XML to CSV Converter
+![Fluxo](imagens/Screenshot_32.png)
 
 
+<br><br><br>
+### Colado o XML to CSV Converter e Renomeando
+![Fluxo](imagens/Screenshot_33.png)
+```
+XML To CSV Converter Airports
+```
 
+<br><br><br>
+### Verificando as configurações o XML to CSV Converter 
+![Fluxo](imagens/Screenshot_34.png)
+```
+/Airports/Airport
+```
+<br><br><br>
+### Adicionando o Join 
+![Fluxo](imagens/Screenshot_35.png)
 
+<br><br><br>
+### Adicionando o Gather 
+![Fluxo](imagens/Screenshot_36.png)
 
+<br><br><br>
+### Renomeando o  Gather
+![Fluxo](imagens/Screenshot_37.png)
+```
+Gather
+```
+<br><br><br>
+### Conectando o Aiports CSV 2 no Join
+![Fluxo](imagens/Screenshot_38.png)
 
+### Renomeando o  Receiver
+![Fluxo](imagens/Screenshot_39.png)
+```
+FTP
+```
+<br><br><br>
+### Adicionando o FTP
+![Fluxo](imagens/Screenshot_40.png)
+<br><br><br>
+
+### Renomeando o  Receiver
+![Fluxo](imagens/Screenshot_41.png)
+```
+FTP
+```
 
 
 
