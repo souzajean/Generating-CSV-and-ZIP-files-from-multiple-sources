@@ -74,14 +74,16 @@ Exemplo do payload enviado via Postman:
       <Country>United Kingdom</Country>
    </Airport>
 </Airports>
+```
+
 📤 Resultado gerado pela integração
 
 A integração gera dois arquivos CSV e os compacta automaticamente em um arquivo ZIP.
-
+```
 doc.zip
  ├── doc1.csv  (dados do Postman)
  └── doc2.csv  (dados da API TripPin)
-
+```
 Esses arquivos são enviados automaticamente para um servidor SFTP.
 
 🎯 Conceitos praticados
