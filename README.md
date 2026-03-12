@@ -80,9 +80,9 @@ Exemplo do payload enviado via Postman:
 
 A integração gera dois arquivos CSV e os compacta automaticamente em um arquivo ZIP.
 ```
-doc.zip
- ├── doc1.csv  (dados do Postman)
- └── doc2.csv  (dados da API TripPin)
+Airport.zip
+ ├── Airport1.csv  (dados do Postman)
+ └── Airport2.csv  (dados da API TripPin)
 ```
 Esses arquivos são enviados automaticamente para um servidor SFTP.
 
