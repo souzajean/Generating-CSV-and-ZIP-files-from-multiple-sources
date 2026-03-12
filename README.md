@@ -113,14 +113,32 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 ### Criando nosso Iflow
 ![Fluxo](imagens/Screenshot_1.png)
 
+** (\**)
 
-### Criando nosso Iflow
+
+### Criando nosso Artifacts
 ![Fluxo](imagens/Screenshot_2.png)
 ```
-PollEnrichwithFTP
+Generating CSV and ZIP Files from Multiple Sources
 ```
 
+### Iflow
+![Fluxo](imagens/Screenshot_3.png)
+```
+Generating CSV and ZIP Files from Multiple Sources
+```
 
+### Iflow
+![Fluxo](imagens/Screenshot_4.png)
+```
+Generating CSV and ZIP Files from Multiple Sources
+```
+
+### Iflow
+![Fluxo](imagens/Screenshot_5.png)
+```
+Generating CSV and ZIP Files from Multiple Sources
+```
 
 
 📂 Código e documentação
