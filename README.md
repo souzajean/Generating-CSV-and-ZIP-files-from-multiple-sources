@@ -21,48 +21,50 @@ API utilizada:
 
 https://services.odata.org/V4/TripPinServiceRW/Airports
 
-Essa API retorna informações sobre aeroportos.
 
-🏗 Arquitetura do iFlow
+Essa API retorna **informações sobre aeroportos**.
 
-O fluxo foi desenvolvido utilizando SAP Integration Suite – Cloud Integration (CPI).
+---
+
+# 🏗 iFlow Architecture
+
+O fluxo foi desenvolvido utilizando **SAP Integration Suite – Cloud Integration (CPI)**.
 
 Fluxo da integração:
 
-Client (Postman)
-      │
-      ▼
-HTTPS Sender
-      │
-      ▼
-Content Modifier
-(Save original payload)
-      │
-      ▼
-Request Reply
-(OData API - TripPin Airports)
-      │
-      ▼
-Parallel Multicast
-      │
-      ├── Branch 1
-      │      Restore original payload
-      │      Convert XML → CSV
-      │      File: doc1.csv
-      │
-      └── Branch 2
-             Convert API Response → CSV
-             File: doc2.csv
-      ▼
-Join
-      ▼
-Gather (Zip Aggregation)
-      ▼
-SFTP Receiver
+
+
 
 Esses componentes são muito utilizados em projetos reais de integração.
 
-📥 Exemplo do Payload enviado via Postman
+
+O arquivo **ZIP é enviado automaticamente para um servidor SFTP**.
+
+---
+
+# 🔧 Technologies Used
+
+Nesse laboratório utilizei alguns componentes importantes do **SAP Integration Suite (CPI)**:
+
+- HTTPS Sender Adapter
+- Content Modifier
+- Request Reply
+- OData API
+- Parallel Multicast
+- XML to CSV Converter
+- Join
+- Gather (ZIP Aggregation)
+- SFTP Receiver
+
+Esses componentes são **muito utilizados em projetos reais de integração**.
+
+---
+
+# 📥 Example Payload (Postman)
+
+Exemplo do payload enviado via Postman:
+
+```xml
 <Airports>
    <Airport>
       <IataCode>LHR</IataCode>
@@ -94,19 +96,9 @@ Durante esse laboratório foi possível praticar conceitos importantes de integr
 ✔ Geração de arquivos ZIP
 ✔ Integração com SFTP
 
-💡 Próximos passos
 
-Continuarei desenvolvendo novos cenários de integração utilizando:
 
-SAP Event Mesh
 
-APIs REST
-
-Processamento de arquivos
-
-Groovy Scripts
-
-Integrações com sistemas externos
 
 📂 Código e documentação
 
@@ -115,7 +107,6 @@ O projeto completo está disponível no GitHub:
 (GitHub link aqui)
 🔗 Conecte-se comigo
 
-Sou Consultor de Infraestrutura SAP Business One e atualmente estou aprofundando meus estudos em:
 
 SAP BTP
 
