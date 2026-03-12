@@ -322,27 +322,250 @@ XML To CSV Converter Airports
 Gather
 ```
 <br><br><br>
-### Conectando o Aiports CSV 2 no Join
+### Configurando o Gather
 ![Fluxo](imagens/Screenshot_38.png)
+```
+Aggregation Strategy
+Incoming Format: Any
+Aggregation Algorithm: Zip 
+File Name: ${property._filename}
+```
 
-### Renomeando o  Receiver
+### Conectando o Content Modifier Airports CSV 2 no Join
 ![Fluxo](imagens/Screenshot_39.png)
-```
-FTP
-```
+
 <br><br><br>
-### Adicionando o FTP
+### Renomeando o FTP
 ![Fluxo](imagens/Screenshot_40.png)
-<br><br><br>
-
-### Renomeando o  Receiver
-![Fluxo](imagens/Screenshot_41.png)
 ```
 FTP
 ```
+<br><br><br>
 
+### Adicionando o FTP
+![Fluxo](imagens/Screenshot_41.png)
 
+<br><br><br>
 
+### Configurando o FTP na aba Target
+![Fluxo](imagens/Screenshot_42.png)
+```
+End Message - > Receiver
+Target
+Directory: /
+File Neme: Airports.zip
+Address: eu-central-1.sftpcloud.io
+Proxy Type: Internet
+Encryption: Plain FTP - no encryption
+Credential Name: FTP_USER
+```
+
+<br><br><br>
+
+### Salvar e realizando o Deploy
+![Fluxo](imagens/Screenshot_43.png)
+
+<br><br><br>
+
+### Criando o Security Material
+![Fluxo](imagens/Screenshot_44.png)
+
+### Configurando o FTP no WINSCP
+![Fluxo](imagens/Screenshot_45.png)
+
+### Acessando o FTP no WINSCP
+![Fluxo](imagens/Screenshot_46.png)
+
+### Configuração do Postman
+![Fluxo](imagens/Screenshot_47.png)
+```
+<Airports>
+    <Airport>
+        <IataCode>LHR</IataCode>
+        <IcaoCode>EGLL</IcaoCode>
+        <Name>London Heathrow Airport</Name>
+        <Address>Longford TW6</Address>
+        <City>London</City>
+        <Country>United Kingdom</Country>
+        <Region>England</Region>
+    </Airport>
+    <Airport>
+        <IataCode>CDG</IataCode>
+        <IcaoCode>LFPG</IcaoCode>
+        <Name>Charles de Gaulle Airport</Name>
+        <Address>95700 Roissy-en-France</Address>
+        <City>Paris</City>
+        <Country>France</Country>
+        <Region>Ile-de-France</Region>
+    </Airport>
+    <Airport>
+        <IataCode>FRA</IataCode>
+        <IcaoCode>EDDF</IcaoCode>
+        <Name>Frankfurt Airport</Name>
+        <Address>60547 Frankfurt</Address>
+        <City>Frankfurt</City>
+        <Country>Germany</Country>
+        <Region>Hesse</Region>
+    </Airport>
+    <Airport>
+        <IataCode>MAD</IataCode>
+        <IcaoCode>LEMD</IcaoCode>
+        <Name>Adolfo Suárez Madrid–Barajas Airport</Name>
+        <Address>Av de la Hispanidad</Address>
+        <City>Madrid</City>
+        <Country>Spain</Country>
+        <Region>Madrid</Region>
+    </Airport>
+    <Airport>
+        <IataCode>BCN</IataCode>
+        <IcaoCode>LEBL</IcaoCode>
+        <Name>Barcelona–El Prat Airport</Name>
+        <Address>08820 El Prat de Llobregat</Address>
+        <City>Barcelona</City>
+        <Country>Spain</Country>
+        <Region>Catalonia</Region>
+    </Airport>
+    <Airport>
+        <IataCode>AMS</IataCode>
+        <IcaoCode>EHAM</IcaoCode>
+        <Name>Amsterdam Schiphol Airport</Name>
+        <Address>Evert van de Beekstraat 202</Address>
+        <City>Amsterdam</City>
+        <Country>Netherlands</Country>
+        <Region>North Holland</Region>
+    </Airport>
+    <Airport>
+        <IataCode>DXB</IataCode>
+        <IcaoCode>OMDB</IcaoCode>
+        <Name>Dubai International Airport</Name>
+        <Address>Dubai Airport Rd</Address>
+        <City>Dubai</City>
+        <Country>United Arab Emirates</Country>
+        <Region>Dubai</Region>
+    </Airport>
+    <Airport>
+        <IataCode>DOH</IataCode>
+        <IcaoCode>OTHH</IcaoCode>
+        <Name>Hamad International Airport</Name>
+        <Address>Hamad Airport Rd</Address>
+        <City>Doha</City>
+        <Country>Qatar</Country>
+        <Region>Doha</Region>
+    </Airport>
+    <Airport>
+        <IataCode>HND</IataCode>
+        <IcaoCode>RJTT</IcaoCode>
+        <Name>Tokyo Haneda Airport</Name>
+        <Address>Hanedakuko Ota City</Address>
+        <City>Tokyo</City>
+        <Country>Japan</Country>
+        <Region>Tokyo</Region>
+    </Airport>
+    <Airport>
+        <IataCode>NRT</IataCode>
+        <IcaoCode>RJAA</IcaoCode>
+        <Name>Narita International Airport</Name>
+        <Address>1-1 Furugome</Address>
+        <City>Narita</City>
+        <Country>Japan</Country>
+        <Region>Chiba</Region>
+    </Airport>
+    <Airport>
+        <IataCode>ICN</IataCode>
+        <IcaoCode>RKSI</IcaoCode>
+        <Name>Incheon International Airport</Name>
+        <Address>272 Gonghang-ro</Address>
+        <City>Incheon</City>
+        <Country>South Korea</Country>
+        <Region>Incheon</Region>
+    </Airport>
+    <Airport>
+        <IataCode>BKK</IataCode>
+        <IcaoCode>VTBS</IcaoCode>
+        <Name>Suvarnabhumi Airport</Name>
+        <Address>999 Bang Phli District</Address>
+        <City>Bangkok</City>
+        <Country>Thailand</Country>
+        <Region>Samut Prakan</Region>
+    </Airport>
+    <Airport>
+        <IataCode>KUL</IataCode>
+        <IcaoCode>WMKK</IcaoCode>
+        <Name>Kuala Lumpur International Airport</Name>
+        <Address>64000 Sepang</Address>
+        <City>Kuala Lumpur</City>
+        <Country>Malaysia</Country>
+        <Region>Selangor</Region>
+    </Airport>
+    <Airport>
+        <IataCode>DEL</IataCode>
+        <IcaoCode>VIDP</IcaoCode>
+        <Name>Indira Gandhi International Airport</Name>
+        <Address>New Delhi 110037</Address>
+        <City>New Delhi</City>
+        <Country>India</Country>
+        <Region>Delhi</Region>
+    </Airport>
+    <Airport>
+        <IataCode>BOM</IataCode>
+        <IcaoCode>VABB</IcaoCode>
+        <Name>Chhatrapati Shivaji Maharaj International Airport</Name>
+        <Address>Sahar Rd</Address>
+        <City>Mumbai</City>
+        <Country>India</Country>
+        <Region>Maharashtra</Region>
+    </Airport>
+    <Airport>
+        <IataCode>GRU</IataCode>
+        <IcaoCode>SBGR</IcaoCode>
+        <Name>São Paulo/Guarulhos International Airport</Name>
+        <Address>Rod. Hélio Smidt</Address>
+        <City>São Paulo</City>
+        <Country>Brazil</Country>
+        <Region>São Paulo</Region>
+    </Airport>
+    <Airport>
+        <IataCode>GIG</IataCode>
+        <IcaoCode>SBGL</IcaoCode>
+        <Name>Rio de Janeiro–Galeão International Airport</Name>
+        <Address>Av. Vinte de Janeiro</Address>
+        <City>Rio de Janeiro</City>
+        <Country>Brazil</Country>
+        <Region>Rio de Janeiro</Region>
+    </Airport>
+    <Airport>
+        <IataCode>EZE</IataCode>
+        <IcaoCode>SAEZ</IcaoCode>
+        <Name>Ministro Pistarini International Airport</Name>
+        <Address>Au Ezeiza Cañuelas</Address>
+        <City>Buenos Aires</City>
+        <Country>Argentina</Country>
+        <Region>Buenos Aires</Region>
+    </Airport>
+    <Airport>
+        <IataCode>SCL</IataCode>
+        <IcaoCode>SCEL</IcaoCode>
+        <Name>Arturo Merino Benítez International Airport</Name>
+        <Address>Armando Cortinez</Address>
+        <City>Santiago</City>
+        <Country>Chile</Country>
+        <Region>Santiago Metropolitan</Region>
+    </Airport>
+    <Airport>
+        <IataCode>MEX</IataCode>
+        <IcaoCode>MMMX</IcaoCode>
+        <Name>Mexico City International Airport</Name>
+        <Address>Av. Capitán Carlos León</Address>
+        <City>Mexico City</City>
+        <Country>Mexico</Country>
+        <Region>Mexico City</Region>
+    </Airport>
+</Airports>
+```
+
+<br><br><br>
+### Atualizando o FTP no WINCSP
+![Fluxo](imagens/Screenshot_48.png)
 
 
 
