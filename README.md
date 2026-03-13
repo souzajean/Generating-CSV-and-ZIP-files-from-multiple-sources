@@ -1,4 +1,4 @@
-# 🚀 :rocket: Generating CSV and ZIP Files from Multiple Sources
+# :rocket: Generating CSV and ZIP Files from Multiple Sources
 ### SAP BTP Integration Suite (CPI)
 
 Projeto de laboratório desenvolvido durante meus estudos em **SAP BTP – Integration Suite (Cloud Integration)**.
