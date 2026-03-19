@@ -348,6 +348,7 @@ FTP
 <br><br><br>
 
 ### Configurando o FTP na aba Target
+Salvar e realizando o Deploy
 ![Fluxo](imagens/Screenshot_42.png)
 ```
 End Message - > Receiver
@@ -362,18 +363,18 @@ Credential Name: FTP_USER
 
 <br><br><br>
 
-### Salvar e realizando o Deploy
+### Criando o Security Material
 ![Fluxo](imagens/Screenshot_43.png)
 
 <br><br><br>
 
-### Criando o Security Material
+### Configurando o FTP no WINSCP
 ![Fluxo](imagens/Screenshot_44.png)
 
-### Configurando o FTP no WINSCP
+### Acessando o FTP no WINSCP
 ![Fluxo](imagens/Screenshot_45.png)
 
-### Acessando o FTP no WINSCP
+### Configuração do Postman
 ![Fluxo](imagens/Screenshot_46.png)
 
 ### Configuração do Postman
