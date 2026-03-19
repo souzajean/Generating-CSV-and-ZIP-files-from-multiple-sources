@@ -374,7 +374,7 @@ Credential Name: FTP_USER
 ### Acessando o FTP no WINSCP
 ![Fluxo](imagens/Screenshot_45.png)
 
-### Configuração do Postman
+### Atualizadno o WinSCP
 ![Fluxo](imagens/Screenshot_46.png)
 
 ### Configuração do Postman
