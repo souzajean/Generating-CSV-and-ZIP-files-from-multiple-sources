@@ -573,7 +573,7 @@ Credential Name: FTP_USER
 ![Fluxo](imagens/Screenshot_49.png)
 
 <br><br><br>
-### Arquivos extraidos na pasta local
+### Arquivos extraídos na pasta local
 ![Fluxo](imagens/Screenshot_50.png)
 
 <br><br><br>
